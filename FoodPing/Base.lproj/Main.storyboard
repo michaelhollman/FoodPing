@@ -41,8 +41,8 @@
                                 <rect key="frame" x="222" y="222" width="37" height="37"/>
                                 <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
-                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food is whatever whatever whatdkjlajkdls jklasj klasjf klsdajfkl dsjaklf jasklfjaklsfj klasjf klsadjfkl asj l" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="420" translatesAutoresizingMaskIntoConstraints="NO" id="bMT-mt-rU2">
-                                <rect key="frame" x="30" y="156" width="420" height="168"/>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Food" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="420" translatesAutoresizingMaskIntoConstraints="NO" id="bMT-mt-rU2">
+                                <rect key="frame" x="30" y="50" width="420" height="400"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -63,13 +63,14 @@
                         <color key="backgroundColor" red="0.41176470588235292" green="0.60784313725490191" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="fD4-Un-Rw1" secondAttribute="centerX" id="4y1-b9-0jv"/>
+                            <constraint firstAttribute="centerY" secondItem="bMT-mt-rU2" secondAttribute="centerY" constant="-10" id="6NB-FQ-egf"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AOP-Gl-FY8" secondAttribute="bottom" constant="20" id="89y-6h-uf0"/>
                             <constraint firstItem="bMT-mt-rU2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="Efm-wE-RPj"/>
                             <constraint firstAttribute="trailing" secondItem="bMT-mt-rU2" secondAttribute="trailing" constant="30" id="GeA-89-W89"/>
                             <constraint firstAttribute="centerY" secondItem="cd7-PF-Td8" secondAttribute="centerY" id="JCo-1C-ygh"/>
                             <constraint firstAttribute="centerX" secondItem="cd7-PF-Td8" secondAttribute="centerX" id="Lp0-b4-uzY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bMT-mt-rU2" secondAttribute="bottom" constant="30" id="RHa-hN-TUq"/>
                             <constraint firstAttribute="centerY" secondItem="fD4-Un-Rw1" secondAttribute="centerY" id="aCa-QC-KzH"/>
-                            <constraint firstAttribute="centerY" secondItem="bMT-mt-rU2" secondAttribute="centerY" id="aSi-gM-2md"/>
                             <constraint firstAttribute="centerX" secondItem="AOP-Gl-FY8" secondAttribute="centerX" id="yIt-PP-Rkx"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
