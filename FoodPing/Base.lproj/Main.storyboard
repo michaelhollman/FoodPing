@@ -38,17 +38,17 @@
                                 </connections>
                             </button>
                             <activityIndicatorView appearanceType="aqua" opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="fD4-Un-Rw1">
-                                <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                                <rect key="frame" x="222" y="222" width="37" height="37"/>
                                 <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
-                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food is whatever whatever whatdkjlajkdls jklasj klasjf klsdajfkl dsjaklf jasklfjaklsfj klasjf klsadjfkl asj l" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="42" translatesAutoresizingMaskIntoConstraints="NO" id="bMT-mt-rU2">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food is whatever whatever whatdkjlajkdls jklasj klasjf klsdajfkl dsjaklf jasklfjaklsfj klasjf klsadjfkl asj l" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="420" translatesAutoresizingMaskIntoConstraints="NO" id="bMT-mt-rU2">
+                                <rect key="frame" x="30" y="156" width="420" height="168"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button appearanceType="aqua" opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOP-Gl-FY8">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <rect key="frame" x="203" y="422" width="75" height="38"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="contentEdgeInsets" minX="20" minY="10" maxX="20" maxY="10"/>
                                 <state key="normal" title="Back">
@@ -72,38 +72,12 @@
                             <constraint firstAttribute="centerY" secondItem="bMT-mt-rU2" secondAttribute="centerY" id="aSi-gM-2md"/>
                             <constraint firstAttribute="centerX" secondItem="AOP-Gl-FY8" secondAttribute="centerX" id="yIt-PP-Rkx"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="fD4-Un-Rw1"/>
-                                <exclude reference="bMT-mt-rU2"/>
-                                <exclude reference="AOP-Gl-FY8"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="Efm-wE-RPj"/>
-                                <exclude reference="GeA-89-W89"/>
-                                <exclude reference="4y1-b9-0jv"/>
-                                <exclude reference="aCa-QC-KzH"/>
-                                <exclude reference="yIt-PP-Rkx"/>
-                                <exclude reference="89y-6h-uf0"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular">
-                            <mask key="subviews">
-                                <include reference="fD4-Un-Rw1"/>
-                                <include reference="bMT-mt-rU2"/>
-                                <include reference="AOP-Gl-FY8"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="Efm-wE-RPj"/>
-                                <include reference="GeA-89-W89"/>
-                                <include reference="4y1-b9-0jv"/>
-                                <include reference="aCa-QC-KzH"/>
-                                <include reference="yIt-PP-Rkx"/>
-                                <include reference="89y-6h-uf0"/>
-                            </mask>
-                        </variation>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                        <variation key="heightClass=regular"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="480" height="480"/>
                     <connections>
                         <outlet property="button" destination="cd7-PF-Td8" id="ehc-0i-HoQ"/>
                         <outlet property="indicator" destination="fD4-Un-Rw1" id="thr-8n-JWf"/>
