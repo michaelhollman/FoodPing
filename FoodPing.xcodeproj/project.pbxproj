@@ -11,18 +11,7 @@
 		4CC6D2451993C2DB001ECFFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6D2441993C2DB001ECFFB /* ViewController.swift */; };
 		4CC6D2481993C2DB001ECFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC6D2461993C2DB001ECFFB /* Main.storyboard */; };
 		4CC6D24A1993C2DB001ECFFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC6D2491993C2DB001ECFFB /* Images.xcassets */; };
-		4CC6D2561993C2DC001ECFFB /* FoodPingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6D2551993C2DC001ECFFB /* FoodPingTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4CC6D2501993C2DC001ECFFB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4CC6D2351993C2DB001ECFFB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4CC6D23C1993C2DB001ECFFB;
-			remoteInfo = FoodPing;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4CC6D23D1993C2DB001ECFFB /* FoodPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,20 +20,10 @@
 		4CC6D2441993C2DB001ECFFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4CC6D2471993C2DB001ECFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CC6D2491993C2DB001ECFFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4CC6D24F1993C2DC001ECFFB /* FoodPingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodPingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CC6D2541993C2DC001ECFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CC6D2551993C2DC001ECFFB /* FoodPingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4CC6D23A1993C2DB001ECFFB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CC6D24C1993C2DC001ECFFB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,7 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				4CC6D23F1993C2DB001ECFFB /* FoodPing */,
-				4CC6D2521993C2DC001ECFFB /* FoodPingTests */,
 				4CC6D23E1993C2DB001ECFFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				4CC6D23D1993C2DB001ECFFB /* FoodPing.app */,
-				4CC6D24F1993C2DC001ECFFB /* FoodPingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,23 +69,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4CC6D2521993C2DC001ECFFB /* FoodPingTests */ = {
-			isa = PBXGroup;
-			children = (
-				4CC6D2551993C2DC001ECFFB /* FoodPingTests.swift */,
-				4CC6D2531993C2DC001ECFFB /* Supporting Files */,
-			);
-			path = FoodPingTests;
-			sourceTree = "<group>";
-		};
-		4CC6D2531993C2DC001ECFFB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4CC6D2541993C2DC001ECFFB /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,24 +89,6 @@
 			productReference = 4CC6D23D1993C2DB001ECFFB /* FoodPing.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4CC6D24E1993C2DC001ECFFB /* FoodPingTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4CC6D25C1993C2DC001ECFFB /* Build configuration list for PBXNativeTarget "FoodPingTests" */;
-			buildPhases = (
-				4CC6D24B1993C2DC001ECFFB /* Sources */,
-				4CC6D24C1993C2DC001ECFFB /* Frameworks */,
-				4CC6D24D1993C2DC001ECFFB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4CC6D2511993C2DC001ECFFB /* PBXTargetDependency */,
-			);
-			name = FoodPingTests;
-			productName = FoodPingTests;
-			productReference = 4CC6D24F1993C2DC001ECFFB /* FoodPingTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -158,10 +100,7 @@
 				TargetAttributes = {
 					4CC6D23C1993C2DB001ECFFB = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					4CC6D24E1993C2DC001ECFFB = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 4CC6D23C1993C2DB001ECFFB;
+						DevelopmentTeam = 4M6T2C723P;
 					};
 				};
 			};
@@ -179,7 +118,6 @@
 			projectRoot = "";
 			targets = (
 				4CC6D23C1993C2DB001ECFFB /* FoodPing */,
-				4CC6D24E1993C2DC001ECFFB /* FoodPingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,13 +129,6 @@
 			files = (
 				4CC6D2481993C2DB001ECFFB /* Main.storyboard in Resources */,
 				4CC6D24A1993C2DB001ECFFB /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CC6D24D1993C2DC001ECFFB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,23 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CC6D24B1993C2DC001ECFFB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CC6D2561993C2DC001ECFFB /* FoodPingTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4CC6D2511993C2DC001ECFFB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4CC6D23C1993C2DB001ECFFB /* FoodPing */;
-			targetProxy = 4CC6D2501993C2DC001ECFFB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4CC6D2461993C2DB001ECFFB /* Main.storyboard */ = {
@@ -344,42 +259,6 @@
 			};
 			name = Release;
 		};
-		4CC6D25D1993C2DC001ECFFB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodPing.app/FoodPing";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FoodPingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		4CC6D25E1993C2DC001ECFFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodPing.app/FoodPing";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = FoodPingTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -399,14 +278,7 @@
 				4CC6D25B1993C2DC001ECFFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		4CC6D25C1993C2DC001ECFFB /* Build configuration list for PBXNativeTarget "FoodPingTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4CC6D25D1993C2DC001ECFFB /* Debug */,
-				4CC6D25E1993C2DC001ECFFB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
