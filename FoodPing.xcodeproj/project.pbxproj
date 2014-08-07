@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CC6D2431993C2DB001ECFFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6D2421993C2DB001ECFFB /* AppDelegate.swift */; };
+		4CC6D2451993C2DB001ECFFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6D2441993C2DB001ECFFB /* ViewController.swift */; };
+		4CC6D2481993C2DB001ECFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC6D2461993C2DB001ECFFB /* Main.storyboard */; };
+		4CC6D24A1993C2DB001ECFFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC6D2491993C2DB001ECFFB /* Images.xcassets */; };
+		4CC6D2561993C2DC001ECFFB /* FoodPingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6D2551993C2DC001ECFFB /* FoodPingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CC6D2501993C2DC001ECFFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CC6D2351993C2DB001ECFFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CC6D23C1993C2DB001ECFFB;
+			remoteInfo = FoodPing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CC6D23D1993C2DB001ECFFB /* FoodPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC6D2411993C2DB001ECFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC6D2421993C2DB001ECFFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CC6D2441993C2DB001ECFFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CC6D2471993C2DB001ECFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CC6D2491993C2DB001ECFFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CC6D24F1993C2DC001ECFFB /* FoodPingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodPingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC6D2541993C2DC001ECFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC6D2551993C2DC001ECFFB /* FoodPingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CC6D23A1993C2DB001ECFFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC6D24C1993C2DC001ECFFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CC6D2341993C2DB001ECFFB = {
+			isa = PBXGroup;
+			children = (
+				4CC6D23F1993C2DB001ECFFB /* FoodPing */,
+				4CC6D2521993C2DC001ECFFB /* FoodPingTests */,
+				4CC6D23E1993C2DB001ECFFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CC6D23E1993C2DB001ECFFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CC6D23D1993C2DB001ECFFB /* FoodPing.app */,
+				4CC6D24F1993C2DC001ECFFB /* FoodPingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CC6D23F1993C2DB001ECFFB /* FoodPing */ = {
+			isa = PBXGroup;
+			children = (
+				4CC6D2421993C2DB001ECFFB /* AppDelegate.swift */,
+				4CC6D2441993C2DB001ECFFB /* ViewController.swift */,
+				4CC6D2461993C2DB001ECFFB /* Main.storyboard */,
+				4CC6D2491993C2DB001ECFFB /* Images.xcassets */,
+				4CC6D2401993C2DB001ECFFB /* Supporting Files */,
+			);
+			path = FoodPing;
+			sourceTree = "<group>";
+		};
+		4CC6D2401993C2DB001ECFFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC6D2411993C2DB001ECFFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CC6D2521993C2DC001ECFFB /* FoodPingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CC6D2551993C2DC001ECFFB /* FoodPingTests.swift */,
+				4CC6D2531993C2DC001ECFFB /* Supporting Files */,
+			);
+			path = FoodPingTests;
+			sourceTree = "<group>";
+		};
+		4CC6D2531993C2DC001ECFFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CC6D2541993C2DC001ECFFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CC6D23C1993C2DB001ECFFB /* FoodPing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC6D2591993C2DC001ECFFB /* Build configuration list for PBXNativeTarget "FoodPing" */;
+			buildPhases = (
+				4CC6D2391993C2DB001ECFFB /* Sources */,
+				4CC6D23A1993C2DB001ECFFB /* Frameworks */,
+				4CC6D23B1993C2DB001ECFFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodPing;
+			productName = FoodPing;
+			productReference = 4CC6D23D1993C2DB001ECFFB /* FoodPing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CC6D24E1993C2DC001ECFFB /* FoodPingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CC6D25C1993C2DC001ECFFB /* Build configuration list for PBXNativeTarget "FoodPingTests" */;
+			buildPhases = (
+				4CC6D24B1993C2DC001ECFFB /* Sources */,
+				4CC6D24C1993C2DC001ECFFB /* Frameworks */,
+				4CC6D24D1993C2DC001ECFFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CC6D2511993C2DC001ECFFB /* PBXTargetDependency */,
+			);
+			name = FoodPingTests;
+			productName = FoodPingTests;
+			productReference = 4CC6D24F1993C2DC001ECFFB /* FoodPingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CC6D2351993C2DB001ECFFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Michael Hollman";
+				TargetAttributes = {
+					4CC6D23C1993C2DB001ECFFB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					4CC6D24E1993C2DC001ECFFB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 4CC6D23C1993C2DB001ECFFB;
+					};
+				};
+			};
+			buildConfigurationList = 4CC6D2381993C2DB001ECFFB /* Build configuration list for PBXProject "FoodPing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CC6D2341993C2DB001ECFFB;
+			productRefGroup = 4CC6D23E1993C2DB001ECFFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CC6D23C1993C2DB001ECFFB /* FoodPing */,
+				4CC6D24E1993C2DC001ECFFB /* FoodPingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CC6D23B1993C2DB001ECFFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC6D2481993C2DB001ECFFB /* Main.storyboard in Resources */,
+				4CC6D24A1993C2DB001ECFFB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC6D24D1993C2DC001ECFFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CC6D2391993C2DB001ECFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC6D2451993C2DB001ECFFB /* ViewController.swift in Sources */,
+				4CC6D2431993C2DB001ECFFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC6D24B1993C2DC001ECFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CC6D2561993C2DC001ECFFB /* FoodPingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CC6D2511993C2DC001ECFFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CC6D23C1993C2DB001ECFFB /* FoodPing */;
+			targetProxy = 4CC6D2501993C2DC001ECFFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CC6D2461993C2DB001ECFFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CC6D2471993C2DB001ECFFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CC6D2571993C2DC001ECFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CC6D2581993C2DC001ECFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CC6D25A1993C2DC001ECFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FoodPing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4CC6D25B1993C2DC001ECFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FoodPing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4CC6D25D1993C2DC001ECFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodPing.app/FoodPing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoodPingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		4CC6D25E1993C2DC001ECFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodPing.app/FoodPing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FoodPingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CC6D2381993C2DB001ECFFB /* Build configuration list for PBXProject "FoodPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC6D2571993C2DC001ECFFB /* Debug */,
+				4CC6D2581993C2DC001ECFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CC6D2591993C2DC001ECFFB /* Build configuration list for PBXNativeTarget "FoodPing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC6D25A1993C2DC001ECFFB /* Debug */,
+				4CC6D25B1993C2DC001ECFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CC6D25C1993C2DC001ECFFB /* Build configuration list for PBXNativeTarget "FoodPingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CC6D25D1993C2DC001ECFFB /* Debug */,
+				4CC6D25E1993C2DC001ECFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CC6D2351993C2DB001ECFFB /* Project object */;
+}
