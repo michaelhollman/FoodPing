@@ -1,4 +1,3 @@
-FoodPing
-========
+# FoodPing
 
-Simple iOS app that pings @Hudl's internal food announcement
+![Screenshots-v1](http://i.imgur.com/EKK3EgU.png)
