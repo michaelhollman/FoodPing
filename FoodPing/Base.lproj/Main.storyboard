@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FoodPing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="FoodPing" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,7 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cd7-PF-Td8">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Food" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="400" translatesAutoresizingMaskIntoConstraints="NO" id="bMT-mt-rU2">
+                                <rect key="frame" x="40" y="50" width="400" height="400"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="90"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cd7-PF-Td8">
                                 <rect key="frame" x="115" y="199" width="250" height="82"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
@@ -28,26 +37,18 @@
                                 <state key="highlighted">
                                     <color key="titleColor" red="0.41176470590000003" green="0.60784313729999995" blue="0.82352941180000006" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="alphaForHighlightedState">
-                                        <real key="value" value="0.0"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="90"/>
+                                </variation>
                                 <connections>
                                     <action selector="foodButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xcp-f2-dIS"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView appearanceType="aqua" opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="fD4-Un-Rw1">
+                            <activityIndicatorView opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="fD4-Un-Rw1">
                                 <rect key="frame" x="222" y="222" width="37" height="37"/>
                                 <color key="color" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </activityIndicatorView>
-                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Food" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="420" translatesAutoresizingMaskIntoConstraints="NO" id="bMT-mt-rU2">
-                                <rect key="frame" x="30" y="50" width="420" height="400"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button appearanceType="aqua" opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOP-Gl-FY8">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOP-Gl-FY8">
                                 <rect key="frame" x="203" y="422" width="75" height="38"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <inset key="contentEdgeInsets" minX="20" minY="10" maxX="20" maxY="10"/>
@@ -55,26 +56,43 @@
                                     <color key="titleColor" red="0.41176470590000003" green="0.60784313729999995" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                </variation>
                                 <connections>
                                     <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SD6-r1-UZX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RRR-fl-1sx">
+                                <rect key="frame" x="188" y="422" width="104" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="10" maxX="20" maxY="10"/>
+                                <state key="normal" title="Schedule">
+                                    <color key="titleColor" red="0.41176470588235292" green="0.60784313725490191" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="sgp-Sk-qqf" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="QqQ-fI-ij9"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.41176470588235292" green="0.60784313725490191" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="RRR-fl-1sx" secondAttribute="centerX" id="1Xo-Lx-Et4"/>
                             <constraint firstAttribute="centerX" secondItem="fD4-Un-Rw1" secondAttribute="centerX" id="4y1-b9-0jv"/>
                             <constraint firstAttribute="centerY" secondItem="bMT-mt-rU2" secondAttribute="centerY" constant="-10" id="6NB-FQ-egf"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AOP-Gl-FY8" secondAttribute="bottom" constant="20" id="89y-6h-uf0"/>
-                            <constraint firstItem="bMT-mt-rU2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="Efm-wE-RPj"/>
-                            <constraint firstAttribute="trailing" secondItem="bMT-mt-rU2" secondAttribute="trailing" constant="30" id="GeA-89-W89"/>
+                            <constraint firstItem="bMT-mt-rU2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="Efm-wE-RPj"/>
+                            <constraint firstAttribute="trailing" secondItem="bMT-mt-rU2" secondAttribute="trailing" constant="40" id="GeA-89-W89"/>
                             <constraint firstAttribute="centerY" secondItem="cd7-PF-Td8" secondAttribute="centerY" id="JCo-1C-ygh"/>
                             <constraint firstAttribute="centerX" secondItem="cd7-PF-Td8" secondAttribute="centerX" id="Lp0-b4-uzY"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bMT-mt-rU2" secondAttribute="bottom" constant="30" id="RHa-hN-TUq"/>
                             <constraint firstAttribute="centerY" secondItem="fD4-Un-Rw1" secondAttribute="centerY" id="aCa-QC-KzH"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RRR-fl-1sx" secondAttribute="bottom" constant="20" id="edD-1S-E7L"/>
                             <constraint firstAttribute="centerX" secondItem="AOP-Gl-FY8" secondAttribute="centerX" id="yIt-PP-Rkx"/>
                         </constraints>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                        <variation key="heightClass=regular"/>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -84,10 +102,75 @@
                         <outlet property="indicator" destination="fD4-Un-Rw1" id="thr-8n-JWf"/>
                         <outlet property="messageLabel" destination="bMT-mt-rU2" id="3Zd-Vj-PSr"/>
                         <outlet property="resetButton" destination="AOP-Gl-FY8" id="s5a-8Z-Hfc"/>
+                        <outlet property="scheduleButton" destination="RRR-fl-1sx" id="dll-8W-7ge"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="430" y="354"/>
+        </scene>
+        <!--Week Day View Controller-->
+        <scene sceneID="nFH-rT-1Yh">
+            <objects>
+                <viewController id="sgp-Sk-qqf" customClass="WeekDayViewController" customModule="FoodPing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kvl-xU-O5b"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qjg-6l-KzF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="se9-BW-pLk">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLU-bL-rYk">
+                                <rect key="frame" x="203" y="422" width="75" height="38"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="contentEdgeInsets" minX="20" minY="10" maxX="20" maxY="10"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="0.66274509803921566" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="hJe-Qp-UVF" kind="unwind" unwindAction="unwindToMainViewController:" id="Ht4-NV-Q0T"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" dataMode="prototypes" style="plain" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="OD2-ut-mdp">
+                                <rect key="frame" x="0.0" y="20" width="480" height="382"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="sgp-Sk-qqf" id="S5t-Ns-YcO"/>
+                                    <outlet property="delegate" destination="sgp-Sk-qqf" id="IjR-pQ-XKj"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.62745098039215685" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="ZLU-bL-rYk" secondAttribute="centerX" id="8bK-ZC-nW4"/>
+                            <constraint firstItem="ZLU-bL-rYk" firstAttribute="top" secondItem="OD2-ut-mdp" secondAttribute="bottom" constant="20" id="A39-aL-5Ep"/>
+                            <constraint firstItem="OD2-ut-mdp" firstAttribute="leading" secondItem="se9-BW-pLk" secondAttribute="leading" id="Bth-aq-agL"/>
+                            <constraint firstItem="Qjg-6l-KzF" firstAttribute="top" secondItem="ZLU-bL-rYk" secondAttribute="bottom" constant="20" id="WVA-wl-AmI"/>
+                            <constraint firstItem="OD2-ut-mdp" firstAttribute="top" secondItem="Kvl-xU-O5b" secondAttribute="bottom" id="dmL-gc-DyA"/>
+                            <constraint firstAttribute="trailing" secondItem="OD2-ut-mdp" secondAttribute="trailing" id="eFH-eU-INV"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="480" height="480"/>
+                    <connections>
+                        <outlet property="buttonBack" destination="ZLU-bL-rYk" id="Pr1-YH-2so"/>
+                        <outlet property="tableView" destination="OD2-ut-mdp" id="PV9-XI-cCc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7PV-Wx-fvy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="hJe-Qp-UVF" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="354"/>
         </scene>
     </scenes>
 </document>

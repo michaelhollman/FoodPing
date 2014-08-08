@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C66D1A919940E350051B94D /* DayOfTheWeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C66D1A719940E350051B94D /* DayOfTheWeekTableViewCell.swift */; };
+		4C66D1AA19940E350051B94D /* DayOfTheWeekTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C66D1A819940E350051B94D /* DayOfTheWeekTableViewCell.xib */; };
+		4C66D1AC199411CC0051B94D /* WeekDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C66D1AB199411CC0051B94D /* WeekDayViewController.swift */; };
 		4CC6D2431993C2DB001ECFFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6D2421993C2DB001ECFFB /* AppDelegate.swift */; };
-		4CC6D2451993C2DB001ECFFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6D2441993C2DB001ECFFB /* ViewController.swift */; };
+		4CC6D2451993C2DB001ECFFB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC6D2441993C2DB001ECFFB /* MainViewController.swift */; };
 		4CC6D2481993C2DB001ECFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC6D2461993C2DB001ECFFB /* Main.storyboard */; };
 		4CC6D24A1993C2DB001ECFFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC6D2491993C2DB001ECFFB /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C66D1A719940E350051B94D /* DayOfTheWeekTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayOfTheWeekTableViewCell.swift; sourceTree = "<group>"; };
+		4C66D1A819940E350051B94D /* DayOfTheWeekTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayOfTheWeekTableViewCell.xib; sourceTree = "<group>"; };
+		4C66D1AB199411CC0051B94D /* WeekDayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekDayViewController.swift; sourceTree = "<group>"; };
 		4CC6D23D1993C2DB001ECFFB /* FoodPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC6D2411993C2DB001ECFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CC6D2421993C2DB001ECFFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4CC6D2441993C2DB001ECFFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CC6D2441993C2DB001ECFFB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4CC6D2471993C2DB001ECFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CC6D2491993C2DB001ECFFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				4CC6D2421993C2DB001ECFFB /* AppDelegate.swift */,
-				4CC6D2441993C2DB001ECFFB /* ViewController.swift */,
+				4CC6D2441993C2DB001ECFFB /* MainViewController.swift */,
+				4C66D1AB199411CC0051B94D /* WeekDayViewController.swift */,
+				4C66D1A719940E350051B94D /* DayOfTheWeekTableViewCell.swift */,
+				4C66D1A819940E350051B94D /* DayOfTheWeekTableViewCell.xib */,
 				4CC6D2461993C2DB001ECFFB /* Main.storyboard */,
 				4CC6D2491993C2DB001ECFFB /* Images.xcassets */,
 				4CC6D2401993C2DB001ECFFB /* Supporting Files */,
@@ -127,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C66D1AA19940E350051B94D /* DayOfTheWeekTableViewCell.xib in Resources */,
 				4CC6D2481993C2DB001ECFFB /* Main.storyboard in Resources */,
 				4CC6D24A1993C2DB001ECFFB /* Images.xcassets in Resources */,
 			);
@@ -139,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CC6D2451993C2DB001ECFFB /* ViewController.swift in Sources */,
+				4CC6D2451993C2DB001ECFFB /* MainViewController.swift in Sources */,
 				4CC6D2431993C2DB001ECFFB /* AppDelegate.swift in Sources */,
+				4C66D1A919940E350051B94D /* DayOfTheWeekTableViewCell.swift in Sources */,
+				4C66D1AC199411CC0051B94D /* WeekDayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
